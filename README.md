@@ -1,2 +1,2 @@
-# https://calcularvelbt.github.io
+# http://calcularvelbt.github.io
 Calcular velocidade
