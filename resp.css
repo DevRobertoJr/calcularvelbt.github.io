@@ -1,0 +1,11 @@
+@media(min-width: 900px){
+    .ninjas .team,
+    .ninjas .adv{
+        flex: 1 1 calc(33.333% - .3em * 2 - .5em * 2 - .2em * 2);
+    }
+}
+@media(min-width: 1356px){
+    body .container{
+        margin: 3em 10em;
+    }
+}

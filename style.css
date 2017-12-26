@@ -1,0 +1,87 @@
+*{margin: 0; padding: 0; box-sizing: border-box;}
+html,
+body{
+    font-size: 100%;
+    width: 100%;
+    height: 100%;
+}
+.cabecalho{
+    background-color: rgb(55, 80, 200);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 10em;
+}
+.cabecalho h1{
+    font-size: 3em;
+    text-align: center;
+    text-shadow: 0 0 10px rgb(250, 250, 250);
+}
+.cabecalho a{
+    color: rgb(228, 83, 39);
+    text-decoration: none;
+}
+.menu .nav{
+    background-color: rgb(55, 100, 150);
+    display: flex;
+    justify-content: center;
+    padding: .5em 0;
+}
+.nav li{
+    list-style: none;
+    margin: 0 2em;
+}
+.nav li a{
+    color: beige;
+    font-size: 1.2em;
+    text-decoration: none;
+}
+body .container{
+    margin: 2em 0;
+}
+.container h1{
+    font-size: 1.3em;
+}
+#dados{
+    margin: 3em 0;
+    align-items: center;
+    width: 100%;
+}
+#dados .ninjas{
+    display: flex;
+    flex-flow: wrap; 
+}
+#dados label[for="velInicialTeam"],
+#dados label[for="velInicialAdv"]{
+    font-size: 1.2em;
+    font-style: italic;
+    margin: .5em 0;
+}
+#dados .subtitulo{
+    font-weight: normal;
+    margin: 1em 0;
+}
+.ninjas .team,
+.ninjas .adv{
+    flex: 1 1 calc(50% - .3em * 2 - .5em * 2 - .2em * 2);
+    border: .3em solid darkorange;
+    padding: 1em .5em;
+    margin: 0.3em .2em;
+}
+.ninjas .tds-njs{
+    display: flex;
+    flex-flow: row wrap;
+}
+.tds-njs div{
+    display: flex;
+    align-items: center;
+    flex: 1 1 calc(50% - .2em * 2);
+    margin: .2em .2em;
+}
+.tds-njs div label{
+    order: 2;
+}
+.tds-njs div input{
+    order: 1;
+}
